@@ -193,7 +193,6 @@ public class Main {
             packageTypeList = getAllPackageType();
         }
     }
-
     public Car findById (Long id) throws SQLException {
         Connection connection = database.getJDBCConnection();
         String sql = "select * from car where id = ?";
